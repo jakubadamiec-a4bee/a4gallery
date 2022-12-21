@@ -69,19 +69,14 @@
   <body>
 	<div id="example-scanning-overlay" class="">
       <div class="inner">
-		<img src="https://cdn.glitch.global/f466e8ec-58ce-4ef5-b809-7e90c6f60f0c/logo.jpg?v=1671629358970">
+		<img src="./logo.jpg">
 		<div class="scanline"></div>
       </div>
     </div>
     <a-scene mindar-image="imageTargetSrc: https://cdn.glitch.global/f466e8ec-58ce-4ef5-b809-7e90c6f60f0c/targets.mind?v=1671629344731; uiScanning: #example-scanning-overlay;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
-      <a-assets>
-        <img id="card" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.0/examples/image-tracking/assets/card-example/card.png" />
-        <a-asset-item id="avatarModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.0/examples/image-tracking/assets/card-example/softmind/scene.gltf"></a-asset-item>
-      </a-assets>
-
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
       <a-entity mindar-image-target="targetIndex: 0">
-        <a-image src="https://cdn.glitch.global/f466e8ec-58ce-4ef5-b809-7e90c6f60f0c/NFTexample.png?v=1671632680507"></a-image>
+        <a-image src="./NFTexample.jpg"></a-image>
       </a-entity>
     </a-scene>
   </body>
